@@ -4,11 +4,13 @@ A MIPS emulator coded through C++ that reads MIPS machine instructions from the 
 
 Project instructions and description included as reference.
 
-Project compiled and executed on school's linux server. Here are the following commands to run simulation.
+Project compiled and executed on school's linux server. Here are the following commands to run simulation(compile, simulate, and clear):
 
-compile : $ make
+**compile :** $ make
 
-simulate mips file: ./simulator sssp.mips
+**simulate mips file:** ./simulator sssp.mips
+
+**clear .o files for clean compiling :** make clean
 
 replace 'sssp.mips' with any mips file to check output.
 
